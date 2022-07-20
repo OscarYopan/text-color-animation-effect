@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 20vw;
+  background-size: 300%;
+  background-image: linear-gradient(45deg, #05AFF2, #04B2D9, 
+    #F2DAC4, 
+    #F26B6B, 
+    #F29B9B
+    );
+  animation: textAnimation 3s linear infinite;
+  display: inline-block;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes textAnimation {
+  to {
+    background-position: 300% center;
+  }
+}
