@@ -14,14 +14,10 @@ body {
 }
 
 h1 {
-  font-size: 20vw;
+  font-size: 35vw;
   background-size: 300%;
-  background-image: linear-gradient(45deg, #05AFF2, #04B2D9, 
-    #F2DAC4, 
-    #F26B6B, 
-    #F29B9B
-    );
-  animation: textAnimation 3s linear infinite;
+  background-image: linear-gradient(45deg, #05AFF2, #04B2D9, #F2DAC4, #F26B6B, #F29B9B, #F2DAC4, #04B2D9, #05AFF2);
+  animation: textAnimation 5s linear infinite;
   display: inline-block;
   color: white;
   -webkit-background-clip: text;
